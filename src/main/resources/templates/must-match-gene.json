@@ -1,0 +1,84 @@
+{
+	"bool": {
+		"must": [
+			{
+				"multi_match": {
+					"query": "{{disease}}",
+					"fields": [
+						"title^2",
+						"abstract",
+						"keyword",
+						"meshTags"
+					],
+					"tie_breaker": 0.3,
+					"type": "best_fields",
+					"boost": 1
+				}
+			},
+			{
+				"multi_match": {
+					"query": "{{gene}}",
+					"fields": [
+						"title^2",
+						"abstract",
+						"keyword",
+						"meshTags"
+					],
+					"tie_breaker": 0.3,
+					"type": "best_fields"
+				}
+			}
+		],
+		"should": [
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "cancer carcinoma tumor",
+							"fields": [
+								"title^2",
+								"abstract",
+								"keyword",
+								"meshTags"
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields"
+						}
+					}
+				}
+			},
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "gene genotype DNA base",
+							"fields": [
+								"title^2",
+								"abstract",
+								"keyword",
+								"meshTags"
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields"
+						}
+					}
+				}
+			},
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "prognosis prognostic therapy treatment case report patient results",
+							"fields": [
+								"title^2",
+								"abstract"
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields"
+						}
+					}
+				}
+			}
+		]
+	}
+}

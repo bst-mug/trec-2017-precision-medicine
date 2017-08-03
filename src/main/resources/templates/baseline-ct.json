@@ -1,0 +1,53 @@
+{
+	"bool": {
+		"must": [
+			{
+				"range": {
+					"minimum_age": {
+						"lte": {{age}}
+					}
+				}
+			},
+			{
+				"range": {
+					"maximum_age": {
+						"gte": {{age}}
+					}
+				}
+			},
+			{
+				"match": {
+					"sex": "{{sex}}"
+				}
+			}
+		],
+		"should": [
+			{
+				"multi_match": {
+					"query": "{{disease}}",
+					"fields": [
+						"title^2",
+						"summary",
+						"inclusion"
+					],
+					"tie_breaker": 0.3,
+					"type": "best_fields",
+					"boost": 1
+				}
+			},
+			{
+				"multi_match": {
+					"query": "{{gene}}",
+					"fields": [
+						"title^2",
+						"summary",
+						"inclusion"
+					],
+					"tie_breaker": 0.3,
+					"type": "best_fields",
+					"boost": 1
+				}
+			}
+		]
+	}
+}

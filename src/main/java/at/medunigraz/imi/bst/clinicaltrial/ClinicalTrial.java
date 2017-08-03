@@ -1,63 +1,56 @@
 package at.medunigraz.imi.bst.clinicaltrial;
 
+import at.medunigraz.imi.bst.medline.PubmedXmlHandler;
+
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ClinicalTrial {
 
-    public static int MIN_REASONABLE_RECRUITING_AGE = 0;
-    public static int MAX_REASONABLE_RECRUITING_AGE = 100;
+    public static Pattern INCL_EXCL_PATTERN = Pattern.compile("[Ii]nclusion [Cc]riteria:(.+)[Ee]xclusion [Cc]riteria:(.+)");
 
-    public enum Sex {
-            MALE,
-            FEMALE
-    }
-
-    public Set<Sex> sex;
+    public String id;
+    public String title;
+    public String summary;
+    public Set<String> sex;
     public int minAge;
     public int maxAge;
+    public String inclusion;
+    public String exclusion;
 
-    public ClinicalTrial(Set<Sex> sex, int minAge, int maxAge) {
+
+    public ClinicalTrial(String id, String title, String summary, Set<String> sex, int minAge, int maxAge, String inclusion, String exclusion) {
+        this.id = id;
+        this.title = title;
+        this.summary = summary;
         this.sex = sex;
         this.minAge = minAge;
         this.maxAge = maxAge;
+        this.inclusion = inclusion;
+        this.exclusion = exclusion;
     }
 
-    public static ClinicalTrial fromXml(XmlTrial xmlTrial){
-
-        return new ClinicalTrial(parseSex(xmlTrial.getEligibleSex()),
-                                 parseAge(xmlTrial.getEligibleMinimumAge()),
-                                 parseAge(xmlTrial.getEligibleMaximumAge()));
+    public ClinicalTrial() {
     }
 
-    private static Set<Sex> parseSex(String sex) {
 
-        Set<Sex> sexSet = new HashSet<Sex>();
+    public static ClinicalTrial fromXml(String xmlClinicalTrial){
 
-        switch(sex.toUpperCase())
-        {
-            case "MALE":
-                sexSet.add(Sex.MALE);
-                break;
-            case "FEMALE":
-                sexSet.add(Sex.FEMALE);
-                break;
-            case "ALL":
-                sexSet.add(Sex.MALE);
-                sexSet.add(Sex.FEMALE);
-                break;
-            default:
-                throw new IllegalArgumentException("Invalid sex: " + sex);
+        ClinicalTrialXmlHandler handler = new ClinicalTrialXmlHandler();
+
+        try {
+
+            SAXParserFactory factory = SAXParserFactory.newInstance();
+            SAXParser saxParser = factory.newSAXParser();
+            saxParser.parse(xmlClinicalTrial, handler);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+        return(handler.getClinicalTrial());
 
-        return sexSet;
-    }
-
-    private static int parseAge(String age) {
-        int parsedAge = Integer.parseInt(age.replaceAll("[^\\d.]", ""));
-        if (parsedAge < ClinicalTrial.MIN_REASONABLE_RECRUITING_AGE ||
-            parsedAge > ClinicalTrial.MAX_REASONABLE_RECRUITING_AGE)
-            throw new IllegalArgumentException("Invalid age: " + parsedAge);
-        return parsedAge;
     }
 }

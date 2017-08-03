@@ -1,0 +1,105 @@
+{
+	"bool": {
+		"must": [
+			{
+				"multi_match": {
+					"query": "{{disease}}",
+					"fields": [
+						"title.synonym^2",
+						"abstract.synonym",
+						"keyword",
+						"meshTags.synonym"
+					],
+					"tie_breaker": 0.3,
+					"type": "best_fields",
+					"boost": 1
+				}
+			},
+			{
+				"multi_match": {
+					"query": "{{gene}}",
+					"fields": [
+						"title.synonym^2",
+						"abstract.synonym",
+						"keyword",
+						"meshTags.synonym"
+					],
+					"tie_breaker": 0.3,
+					"type": "best_fields"
+				}
+			}
+		],
+		"should": [
+			{
+				"match": {
+					"_type": "extra"
+				}
+			},
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "cancer carcinoma tumor",
+							"fields": [
+								"title.synonym^2",
+								"abstract.synonym",
+								"keyword",
+								"meshTags.synonym"
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields"
+						}
+					}
+				}
+			},
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "gene genotype DNA base",
+							"fields": [
+								"title.synonym^2",
+								"abstract.synonym",
+								"keyword",
+								"meshTags.synonym"
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields"
+						}
+					}
+				}
+			},
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "surgery therapy treatment prognosis prognostic survival patient resistance recurrence targets malignancy study therapeutical outcome",
+							"fields": [
+								"title.synonym^2",
+								"abstract.synonym"
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields"
+						}
+					}
+				}
+			},
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "transcript paraffin tumorigenesis embedded formalin fish tissue probes detection screening",
+							"fields": [
+								"title^2",
+								"abstract"
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields",
+							"boost": -1
+						}
+					}
+				}
+			}
+		]
+	}
+}

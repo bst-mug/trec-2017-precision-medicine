@@ -1,0 +1,6 @@
+cancer, carcinoma, neoplasm, tumour, tumor
+gene, genotype, DNA, base
+OS, overall survival
+PFS, progression-free survival
+amplification, elevation, high copy number, high expression, overexpression
+RFS, relapse-free survival

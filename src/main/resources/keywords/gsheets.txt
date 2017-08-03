@@ -1,0 +1,83 @@
+therapy
+therapeutical
+prognostic
+prognosis
+recurrence-free survival
+recurrence-free
+chemoterapy
+chemoterapeutical
+prognosis
+disease-free survival
+disease-free
+precision medicine
+response
+treatment
+prevention
+target therapy
+target
+targeted therapy
+targeted
+proliferation
+inhibition
+inhibitor
+outcome
+TNM
+PFS
+DFS
+cell line
+represses
+case report
+OS
+overall survival
+personalized medicine strategy
+resistance
+risk
+metastasis
+stage
+Gleason
+grade
+grading
+recurrence
+antitumor
+malignancy
+meta-analysis
+progression
+model
+in vivo
+existing drugs
+drugs
+agressive
+risk stratification
+chemoradiotherapy
+radiotherapy
+cisplatin
+efficacy
+efficiency
+sensitive
+trial
+phase I
+phasse II
+clinical trial
+clinical
+placebo-controlled
+oral inhibitor
+potent
+first-in-class
+RFS
+relapse-free survival
+relapse-free
+smoking
+trastuzumab
+capecitabine
+overview
+overexpression
+amplification
+tumor
+tumour
+cancer
+cancers
+carcinoma
+carcinomas
+neoplasm
+neoplasms
+surgery

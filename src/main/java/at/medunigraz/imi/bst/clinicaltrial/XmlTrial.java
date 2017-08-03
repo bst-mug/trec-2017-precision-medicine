@@ -23,21 +23,58 @@ public class XmlTrial {
         }
     }
 
+    public String getId() {
+        return this.currentDocument.getElementsByTagName("nct_id").item(0).getTextContent();
+    }
+
+    public String getTitle() {
+        return this.currentDocument.getElementsByTagName("brief_title").item(0).getTextContent();
+    }
+
+    public String getSummary() {
+        try {
+            return this.currentDocument.getElementsByTagName("textblock").item(0).getTextContent();
+        }
+        catch (Exception e) {
+            return "";
+        }
+    }
+
     public String getEligibleSex() {
-        return this.currentDocument.getElementsByTagName("gender").item(0).getTextContent();
+        try {
+            return this.currentDocument.getElementsByTagName("gender").item(0).getTextContent();
+        }
+        catch (Exception e) {
+            return "All";
+        }
     }
 
     public String getEligibleMinimumAge() {
-        return this.currentDocument.getElementsByTagName("minimum_age").item(0).getTextContent();
+        try {
+            return this.currentDocument.getElementsByTagName("minimum_age").item(0).getTextContent();
+        }
+        catch (Exception e) {
+            return "0";
+        }
     }
 
     public String getEligibleMaximumAge() {
-        return this.currentDocument.getElementsByTagName("maximum_age").item(0).getTextContent();
+        try {
+            return this.currentDocument.getElementsByTagName("maximum_age").item(0).getTextContent();
+        }
+        catch (Exception e) {
+            return "100";
+        }
     }
 
     public String getInclusionExclusionCriteria() {
-        Element eligibility = (Element) this.currentDocument.getElementsByTagName("eligibility").item(0);
-        Element criteria = (Element) eligibility.getElementsByTagName("criteria").item(0);
-        return criteria.getElementsByTagName("textblock").item(0).getTextContent();
+        try {
+            Element eligibility = (Element) this.currentDocument.getElementsByTagName("eligibility").item(0);
+            Element criteria = (Element) eligibility.getElementsByTagName("criteria").item(0);
+            return criteria.getElementsByTagName("textblock").item(0).getTextContent();
+        }
+        catch (Exception e) {
+            return "";
+        }
     }
 }

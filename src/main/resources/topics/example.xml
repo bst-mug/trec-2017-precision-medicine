@@ -1,0 +1,14 @@
+<topics task="2017 TREC Precision Medicine">
+	<topic number="1" type="test">
+		<disease>Acute lymphoblastic leukemia</disease>
+		<variant>ABL1, PTPN11</variant>
+		<demographic>12-year-old male</demographic>
+		<other>No relevant factors</other>
+	</topic>
+	<topic number="2" type="test">
+		<disease>thyroid cancer</disease>
+		<variant>RET, BRAF</variant>
+		<demographic>63-year-old female</demographic>
+		<other>Ecog grade of 2</other>
+	</topic>
+</topics>

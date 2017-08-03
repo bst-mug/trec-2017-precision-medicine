@@ -1,0 +1,19 @@
+{
+	"multi_match": {
+		"query": "{{disease}} {{gene}}",
+		"fields": [
+			"abstract",
+			"keywords",
+			"meshTags",
+			"title^2"
+		],
+		"type": "best_fields",
+		"operator": "OR",
+		"slop": 0,
+		"prefix_length": 0,
+		"max_expansions": 50,
+		"lenient": false,
+		"zero_terms_query": "NONE",
+		"boost": 1.0
+	}
+}

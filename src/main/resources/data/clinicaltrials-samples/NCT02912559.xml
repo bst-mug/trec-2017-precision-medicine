@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="14926">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on April 10, 2017</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02912559</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NCI-2016-01417</org_study_id>
+    <secondary_id>NCI-2016-01417</secondary_id>
+    <secondary_id>A021502</secondary_id>
+    <secondary_id>A021502</secondary_id>
+    <secondary_id>U10CA180821</secondary_id>
+    <nct_id>NCT02912559</nct_id>
+  </id_info>
+  <brief_title>Combination Chemotherapy With or Without Atezolizumab in Treating Patients With Stage III Colon Cancer and Deficient DNA Mismatch Repair or Microsatellite Instability</brief_title>
+  <official_title>Randomized Trial of FOLFOX Alone or Combined With Atezolizumab as Adjuvant Therapy for Patients With Stage III Colon Cancer and Deficient DNA Mismatch Repair or Microsatellite Instability</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Cancer Institute (NCI)</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This randomized phase III trial studies combination chemotherapy and atezolizumab to see how
+      well it works compared with combination chemotherapy alone in treating patients with stage
+      III colon cancer and deficient deoxyribonucleic acid (DNA) mismatch repair or microsatellite
+      instability. Drugs used in combination chemotherapy, such as oxaliplatin, leucovorin
+      calcium, and fluorouracil, work in different ways to stop the growth of tumor cells, either
+      by killing the cells, by stopping them from dividing, or by stopping them from spreading.
+      Monoclonal antibodies, such as atezolizumab, may interfere with the ability of tumor cells
+      to grow and spread. Giving combination chemotherapy with atezolizumab may work better than
+      combination chemotherapy alone in treating patients with colon cancer.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PRIMARY OBJECTIVES:
+
+      I. To determine whether atezolizumab combined with oxaliplatin, leucovorin calcium, and
+      fluorouracil (FOLFOX) and its continuation as monotherapy can significantly improve
+      disease-free survival (DFS) compared to FOLFOX alone in patients with stage III colon
+      cancers and high-frequency microsatellite instability (MSI-H) or deficient DNA mismatch
+      repair (dMMR).
+
+      SECONDARY OBJECTIVES:
+
+      I. To determine whether atezolizumab combined with FOLFOX and its continuation as
+      monotherapy can significantly improve overall survival compared to FOLFOX alone in patients
+      with stage III colon cancers and MSI-H or dMMR.
+
+      TERTIARY OBJECTIVES:
+
+      I. To determine the impact of the addition of atezolizumab to FOLFOX on patient
+      health-related quality of life (QOL), functional domains of health-related QOL, and disease-
+      and treatment-related symptoms.
+
+      II. To determine if the &quot;immunoscore&quot; can predict the efficacy of atezolizumab for
+      disease-free survival among patients with stage III colon cancer.
+
+      III. To assess whether circulating immune cell populations can predict the efficacy of
+      atezolizumab as adjuvant therapy for stage III colon cancer.
+
+      IV. To explore the associations of genomic alterations identified in cell-free (cf)DNA with
+      DFS in patients treated with FOLFOX with or without atezolizumab.
+
+      V. To assess whether soluble markers of systemic inflammation in blood can predict the
+      efficacy of atezolizumab as adjuvant therapy for stage III colon cancer.
+
+      VI. To assess the relationship between baseline plasma 25(OH) D level, change in 25(OH)D
+      level, and DFS and overall survival (OS) in patients with stage III colon cancer receiving
+      FOLFOX +/- atezolizumab.
+
+      VII. To determine the ability of using fecal microbiota and their metabolic products to
+      predict survival benefit from anti-PD-L1 antibody therapy in dMMR/MSI-H colon cancer
+      patients.
+
+      VIII. To determine if hypermutation or hyper-indel status is associated with response to
+      atezolizumab.
+
+      IX. To determine if unique messenger ribonucleic acid (mRNA) expression signatures are
+      predictive of disease-free survival among patients receiving adjuvant chemotherapy for stage
+      III colon cancer.
+
+      X. To determine if the efficacy of atezolizumab differs among dMMR/MSI cancers due to
+      germline MMR mutation (MLH1, MSH2, MSH6, PMS2) versus those with MLH1 hypermethylation and
+      CIMP in patients with stage III colon cancer.
+
+      XI. To identify overall mutational burden and number of putative tumor neoantigens in colon
+      carcinoma specimens.
+
+      OUTLINE: Patients are randomized to 1 of 2 arms.
+
+      ARM I: Patients receive oxaliplatin intravenously (IV) over 2 hours and leucovorin calcium
+      IV over 2 hours on day 1, and fluorouracil IV as a bolus on day 1, then continuously over 46
+      hours on days 1-3. Treatment repeats every 14 days for up to 12 courses in the absence of
+      disease progression or unacceptable toxicity. Patients also receive atezolizumab IV over
+      30-60 minutes starting on day 1 of course 1 or 2. Treatment repeats every 14 days for up to
+      25 courses in the absence of disease progression or unacceptable toxicity.
+
+      ARM II: Patients receive oxaliplatin IV over 2 hours and leucovorin calcium IV over 2 hours
+      on day 1, and fluorouracil IV as a bolus on day 1, then continuously over 46 hours on days
+      1-3. Treatment repeats every 14 days for up to 12 courses in the absence of disease
+      progression or unacceptable toxicity.
+
+      After completion of study treatment, patients are followed up at 1 month and every 6 months
+      for 5 years.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>September 2017</start_date>
+  <primary_completion_date type="Anticipated">July 2020</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>No masking</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>DFS</measure>
+    <time_frame>From the time from randomization to first documentation of disease recurrent or death, assessed up to 5 years</time_frame>
+    <description>DFS will be compared between treatment arms using the stratified log rank test at one-sided level 0.025. The hazard ratio (HR) for DFS will be estimated using a stratified Cox proportional hazards model and the 95% confidence interval (CI) for the HR will be provided. Results from an unstratified analysis will also be provided. Kaplan-Meier methodology will be used to estimate the median DFS for each treatment arm, and Kaplan-Meier curves will be produced. Brookmeyer Crowley methodology will be used to construct the 95% CI for the median DFS for each treatment arm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of adverse events assessed by Common Terminology Criteria for Adverse Events version 4.0</measure>
+    <time_frame>Up to 30 days after last treatment</time_frame>
+    <description>Frequency tables will be reviewed to determine the patterns. The overall adverse event rates will be compared between treatment arms using Chi-square test (or Fisher's exact test if the data in contingency table is sparse).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>OS</measure>
+    <time_frame>From the time from randomization to death, from any cause, assessed up to 5 years</time_frame>
+    <description>The distribution of overall survival will be estimated using the method of Kaplan-Meier. Overall survival will be compared between treatment arms using the log-rank test.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">720</enrollment>
+  <condition>Colon Adenocarcinoma</condition>
+  <condition>DNA Repair Disorder</condition>
+  <condition>Lynch Syndrome</condition>
+  <condition>Microsatellite Instability</condition>
+  <condition>Stage IIIA Colon Cancer</condition>
+  <condition>Stage IIIB Colon Cancer</condition>
+  <condition>Stage IIIC Colon Cancer</condition>
+  <arm_group>
+    <arm_group_label>Arm I (combination chemotherapy, atezolizumab)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients receive oxaliplatin IV over 2 hours and leucovorin calcium IV over 2 hours on day 1, and fluorouracil IV as a bolus on day 1, then continuously over 46 hours on days 1-3. Treatment repeats every 14 days for up to 12 courses in the absence of disease progression or unacceptable toxicity. Patients also receive atezolizumab IV over 30-60 minutes starting on day 1 of course 1 or 2. Treatment repeats every 14 days for up to 25 courses in the absence of disease progression or unacceptable toxicity.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm II (combination chemotherapy)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients receive oxaliplatin IV over 2 hours and leucovorin calcium IV over 2 hours on day 1, and fluorouracil IV as a bolus on day 1, then continuously over 46 hours on days 1-3. Treatment repeats every 14 days for up to 12 courses in the absence of disease progression or unacceptable toxicity.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Atezolizumab</intervention_name>
+    <description>Given IV</description>
+    <arm_group_label>Arm I (combination chemotherapy, atezolizumab)</arm_group_label>
+    <other_name>MPDL 3280A</other_name>
+    <other_name>MPDL 328OA</other_name>
+    <other_name>MPDL-3280A</other_name>
+    <other_name>MPDL3280A</other_name>
+    <other_name>MPDL328OA</other_name>
+    <other_name>RG7446</other_name>
+    <other_name>RO5541267</other_name>
+    <other_name>Tecentriq</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Fluorouracil</intervention_name>
+    <description>Given IV</description>
+    <arm_group_label>Arm I (combination chemotherapy, atezolizumab)</arm_group_label>
+    <arm_group_label>Arm II (combination chemotherapy)</arm_group_label>
+    <other_name>5-Fluoro-2,4(1H, 3H)-pyrimidinedione</other_name>
+    <other_name>5-Fluorouracil</other_name>
+    <other_name>5-Fluracil</other_name>
+    <other_name>5-FU</other_name>
+    <other_name>AccuSite</other_name>
+    <other_name>Carac</other_name>
+    <other_name>Fluoro Uracil</other_name>
+    <other_name>Fluouracil</other_name>
+    <other_name>Flurablastin</other_name>
+    <other_name>Fluracedyl</other_name>
+    <other_name>Fluracil</other_name>
+    <other_name>Fluril</other_name>
+    <other_name>Fluroblastin</other_name>
+    <other_name>Ribofluor</other_name>
+    <other_name>Ro 2-9757</other_name>
+    <other_name>Ro-2-9757</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Laboratory Biomarker Analysis</intervention_name>
+    <description>Correlative studies</description>
+    <arm_group_label>Arm I (combination chemotherapy, atezolizumab)</arm_group_label>
+    <arm_group_label>Arm II (combination chemotherapy)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Leucovorin Calcium</intervention_name>
+    <description>Given IV</description>
+    <arm_group_label>Arm I (combination chemotherapy, atezolizumab)</arm_group_label>
+    <arm_group_label>Arm II (combination chemotherapy)</arm_group_label>
+    <other_name>Adinepar</other_name>
+    <other_name>Calcifolin</other_name>
+    <other_name>Calcium (6S)-Folinate</other_name>
+    <other_name>Calcium Folinate</other_name>
+    <other_name>Calcium Leucovorin</other_name>
+    <other_name>Calfolex</other_name>
+    <other_name>Calinat</other_name>
+    <other_name>Cehafolin</other_name>
+    <other_name>Citofolin</other_name>
+    <other_name>Citrec</other_name>
+    <other_name>Citrovorum Factor</other_name>
+    <other_name>Cromatonbic Folinico</other_name>
+    <other_name>Dalisol</other_name>
+    <other_name>Disintox</other_name>
+    <other_name>Divical</other_name>
+    <other_name>Ecofol</other_name>
+    <other_name>Emovis</other_name>
+    <other_name>Factor, Citrovorum</other_name>
+    <other_name>Flynoken A</other_name>
+    <other_name>Folaren</other_name>
+    <other_name>Folaxin</other_name>
+    <other_name>FOLI-cell</other_name>
+    <other_name>Foliben</other_name>
+    <other_name>Folidan</other_name>
+    <other_name>Folidar</other_name>
+    <other_name>Folinac</other_name>
+    <other_name>Folinate Calcium</other_name>
+    <other_name>folinic acid</other_name>
+    <other_name>Folinic Acid Calcium Salt Pentahydrate</other_name>
+    <other_name>Folinoral</other_name>
+    <other_name>Folinvit</other_name>
+    <other_name>Foliplus</other_name>
+    <other_name>Folix</other_name>
+    <other_name>Imo</other_name>
+    <other_name>Lederfolat</other_name>
+    <other_name>Lederfolin</other_name>
+    <other_name>Leucosar</other_name>
+    <other_name>leucovorin</other_name>
+    <other_name>Rescufolin</other_name>
+    <other_name>Rescuvolin</other_name>
+    <other_name>Tonofolin</other_name>
+    <other_name>Wellcovorin</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Oxaliplatin</intervention_name>
+    <description>Given IV</description>
+    <arm_group_label>Arm I (combination chemotherapy, atezolizumab)</arm_group_label>
+    <arm_group_label>Arm II (combination chemotherapy)</arm_group_label>
+    <other_name>1-OHP</other_name>
+    <other_name>Ai Heng</other_name>
+    <other_name>Aiheng</other_name>
+    <other_name>Dacotin</other_name>
+    <other_name>Dacplat</other_name>
+    <other_name>Diaminocyclohexane Oxalatoplatinum</other_name>
+    <other_name>Eloxatin</other_name>
+    <other_name>Eloxatine</other_name>
+    <other_name>JM-83</other_name>
+    <other_name>Oxalatoplatin</other_name>
+    <other_name>Oxalatoplatinum</other_name>
+    <other_name>RP 54780</other_name>
+    <other_name>RP-54780</other_name>
+    <other_name>SR-96669</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Quality-of-Life Assessment</intervention_name>
+    <description>Ancillary studies</description>
+    <arm_group_label>Arm I (combination chemotherapy, atezolizumab)</arm_group_label>
+    <arm_group_label>Arm II (combination chemotherapy)</arm_group_label>
+    <other_name>Quality of Life Assessment</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Histologically proven stage III colon adenocarcinoma (any T, N1-2M0; includes N1C)
+
+          -  Presence of microsatellite instability (MSI-H) or deficient (d) DNA mismatch repair
+             (dMMR); MSI can be determined using a polymerase chain reaction (PCR)-based assay or
+             alternatively, dMMR status by immunohistochemistry (IHC) for MMR protein expression
+             (MLH1, MSH2, MSH6, PMS2) where loss of one or more proteins indicates dMMR testing;
+             MSI/dMMR may be determined either locally or by site-selected reference lab; Note:
+             loss of MLH1 and PMS2 commonly occur together
+
+          -  Patients with MSI testing that did not show dMMR (loss of MMR protein) or MSI-H are
+             not eligible to participate
+
+          -  Patients who are known to have Lynch syndrome and have been found to carry a specific
+             mutation in an MMR gene (MLH1, MSH2, MSH6, PMS2) are eligible to participate
+
+          -  Tumors must have been completely resected; in patients with tumor adherent to
+             adjacent structures, en bloc R0 resection must be documented; positive radial margins
+             are not excluded as long as en bloc resection was performed; proximal or distal
+             margin positivity is excluded
+
+          -  Entire tumor must be in the colon (rectal involvement is an exclusion); surgeon
+             confirmation that entire tumor was located in the colon is required only in cases
+             where it is important to establish if the tumor is a colon versus (vs) rectal primary
+
+          -  No evidence of residual involved lymph node disease or metastatic disease at the time
+             of registration based on clinician assessment of imaging; the treating physician will
+             determine if incidental lesions on imaging require workup to exclude metastatic
+             disease; if based on review of images, the treating physician determines the patient
+             to be stage III, then the patient is eligible
+
+          -  No prior medical therapy (chemotherapy, immunotherapy, biologic or targeted therapy)
+             or radiation therapy for colon cancer EXCEPT for 1 cycle of mFOLFOX6
+
+          -  Eastern Cooperative Oncology Group (ECOG) performance status =&lt; 2
+
+          -  For women of childbearing potential only, a negative pregnancy test done =&lt; 7 days
+             prior to registration is required; a female of childbearing potential is a sexually
+             mature female who:
+
+               -  Has not undergone a hysterectomy or bilateral oophorectomy; or
+
+               -  Has not been naturally postmenopausal for at least 12 consecutive months (i.e.,
+                  has had menses at any time in the preceding 12 consecutive months)
+
+          -  Absolute neutrophil count (ANC) &gt;= 1500/mm^3
+
+          -  Platelet count &gt;= 100,000/mm^3; platelets &gt;= 75,000 required for patients who
+             received cycle 1 of mFOLFOX6 prior to registration
+
+          -  Creatinine =&lt; 1.5 x upper limit of normal (ULN) or
+
+          -  Calculated (calc.) creatinine clearance &gt;= 45 mL/min by Cockcroft-Gault equation
+
+          -  Total bilirubin =&lt; 1.5 x upper limit of normal (ULN) except in the case of Gilbert
+             disease
+
+          -  Aspartate aminotransferase (AST)/alanine aminotransferase (ALT) =&lt; 2.5 x upper limit
+             of normal (ULN)
+
+          -  Thyroid-stimulating hormone (TSH) within normal limits (WNL); supplementation is
+             acceptable to achieve a TSH WNL; in patients with abnormal TSH, if free T4 is normal
+             and patient is clinically euthyroid, patient is eligible
+
+          -  No active known autoimmune disease, including colitis, inflammatory bowel disease
+             (i.e., ulcerative colitis or Crohn's disease), rheumatoid arthritis,
+             panhypopituitarism, adrenal insufficiency
+
+          -  No known active hepatitis B or C
+
+               -  Active hepatitis B can be defined as:
+
+                    -  Hepatitis B virus surface antigen (HBsAg) detectable for &gt; 6 months;
+
+                    -  Serum hepatitis B virus (HBV) DNA 20,000 IU/ml (105 copies/ml); lower
+                       values 2,000-20,000 IU/ml (104-105 copies/ml) are often seen in hepatitis B
+                       virus e antigen (HBeAg)-negative chronic hepatitis B
+
+                    -  Persistent or intermittent elevation in ALT/AST levels
+
+                    -  Liver biopsy showing chronic hepatitis with moderate or severe
+                       necroinflammation
+
+               -  Active hepatitis C can be defined as:
+
+                    -  Hepatitis C antibody (AB) positive AND
+
+                    -  Presence of hepatitis C virus (HCV) RNA
+
+          -  Excluded if known active pulmonary disease with hypoxia defined as:
+
+               -  Oxygen saturation &lt; 85% on room air, or
+
+               -  Oxygen saturation &lt; 88% despite supplemental oxygen
+
+          -  No grade &gt;= 2 peripheral motor or sensory neuropathy
+
+          -  No other planned concurrent investigational agents or other tumor directed therapy
+             (chemotherapy, radiation) while on study
+
+          -  No systemic daily treatment with either corticosteroids (&gt; 10 mg daily prednisone
+             equivalents) or other immunosuppressive medications within 7 days of registration
+
+          -  No known history of severe allergic anaphylactic reactions to chimeric, human or
+             humanized antibodies, or fusion proteins
+
+          -  No known hypersensitivity to Chinese hamster ovary (CHO) cell products or any
+             component of the atezolizumab formulation
+
+          -  No known allergy to 5-fluorouracil, oxaliplatin, or leucovorin
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Frank Sinicrope</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Alliance for Clinical Trials in Oncology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Alliance for Clinical Trials in Oncology</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Frank A. Sinicrope</last_name>
+      <phone>855-776-0015</phone>
+    </contact>
+    <investigator>
+      <last_name>Frank A. Sinicrope</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2016</verification_date>
+  <lastchanged_date>January 31, 2017</lastchanged_date>
+  <firstreceived_date>September 22, 2016</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Adenocarcinoma</mesh_term>
+    <mesh_term>Colonic Neoplasms</mesh_term>
+    <mesh_term>Colorectal Neoplasms, Hereditary Nonpolyposis</mesh_term>
+    <mesh_term>Microsatellite Instability</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Calcium, Dietary</mesh_term>
+    <mesh_term>Oxaliplatin</mesh_term>
+    <mesh_term>Fluorouracil</mesh_term>
+    <mesh_term>Antibodies, Monoclonal</mesh_term>
+    <mesh_term>Leucovorin</mesh_term>
+    <mesh_term>Levoleucovorin</mesh_term>
+    <mesh_term>Folic Acid</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

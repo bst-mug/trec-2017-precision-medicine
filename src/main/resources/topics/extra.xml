@@ -1,0 +1,98 @@
+<topics task="2017 TREC Precision Medicine">
+  <topic number="1001">
+    <disease>Carcinoma of unknown primary</disease>
+    <gene>JAK2 (V617F), PIK3CA (E81K)</gene>
+    <demographic>65-year-old male</demographic>
+    <other>Hypertension</other>
+  </topic>
+  <topic number="1002">
+    <disease>Colon cancer</disease>
+    <gene>Microsatellite Instability (high); MLH1 methylation positive</gene>
+    <demographic>65-year-old male</demographic>
+    <other>Hypercholesterolemia</other>
+  </topic>
+  <topic number="1003">
+    <disease>Anal melanoma</disease>
+    <gene>KIT (L576P)</gene>
+    <demographic>56-year-old male</demographic>
+    <other>Depression, Hypertension</other>
+  </topic>
+  <topic number="1004">
+    <disease>Pancreatic adenocarcinoma</disease>
+    <gene>KRAS (G12D)</gene>
+    <demographic>69-year-old male</demographic>
+    <other>Alcoholism, Cirrhosis, Stroke</other>
+  </topic>
+  <topic number="1005">
+    <disease>Squamous cell carcinoma, head and neck</disease>
+    <gene>Human Papilloma Virus (Type 16 positive)</gene>
+    <demographic>59-year-old male</demographic>
+    <other>Hypertension</other>
+  </topic>
+  <topic number="1006">
+    <disease>Biliary tract cancer</disease>
+    <gene>HER2/neu Amplification</gene>
+    <demographic>64-year-old female</demographic>
+    <other>Hypertension</other>
+  </topic>
+  <topic number="1007">
+    <disease>Appendiceal cancer</disease>
+    <gene>p53 (H193R)</gene>
+    <demographic>23-year-old female</demographic>
+    <other>None</other>
+  </topic>
+  <topic number="1008">
+    <disease>Prostate cancer</disease>
+    <gene>AR Amplification</gene>
+    <demographic>76-year-old male</demographic>
+    <other>Arthritis</other>
+  </topic>
+  <topic number="1009">
+    <disease>Pancreatic cancer</disease>
+    <gene>ARID1A</gene>
+    <demographic>62-year-old female</demographic>
+    <other>Diabetes</other>
+  </topic>
+  <topic number="1010">
+    <disease>Endometrial cancer</disease>
+    <gene>PIK3CA Amplification</gene>
+    <demographic>44-year-old female</demographic>
+    <other>Diabetes</other>
+  </topic>
+  <topic number="1011">
+    <disease>Moderately differentiated pancreatic adenocarcinoma</disease>
+    <gene>KRAS, TP53, CDKN2A</gene>
+    <demographic>44-year-old female</demographic>
+    <other>None</other>
+  </topic>
+  <topic number="1012">
+    <disease>Moderately differentiated pancreatic adenocarcinoma</disease>
+    <gene>KRAS, TP53</gene>
+    <demographic>65-year-old male</demographic>
+    <other>None</other>
+  </topic>
+  <topic number="1013">
+    <disease>Pancreatic adenocarcinoma</disease>
+    <gene>XRCC1</gene>
+    <demographic>37-year-old female</demographic>
+    <other>None</other>
+  </topic>
+  <topic number="1014">
+    <disease>Pancreatic adenocarcinoma</disease>
+    <gene>XRCC1</gene>
+    <demographic>76-year-old male</demographic>
+    <other>None</other>
+  </topic>
+  <topic number="1015">
+    <disease>Intraductal papillary mucinous neoplasm with high-grade dysplasia</disease>
+    <gene>FGFR4, KIT</gene>
+    <demographic>72-year-old male</demographic>
+    <other>None</other>
+  </topic>
+  <topic number="1016">
+    <disease>Pancreatic adenocarcinoma</disease>
+    <gene>ERCC2</gene>
+    <demographic>63-year-old male</demographic>
+    <other>None</other>
+  </topic>
+</topics>

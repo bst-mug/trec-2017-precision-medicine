@@ -1,0 +1,85 @@
+{
+	"bool": {
+		"must": [
+			{
+				"range": {
+					"minimum_age": {
+						"lte": {{age}}
+					}
+				}
+			},
+			{
+				"range": {
+					"maximum_age": {
+						"gte": {{age}}
+					}
+				}
+			},
+			{
+				"match": {
+					"sex": "{{sex}}"
+				}
+			},
+			{
+				"multi_match": {
+					"query": "{{disease}}",
+					"fields": [
+						"title^2",
+						"summary",
+						"inclusion"
+					],
+					"tie_breaker": 0.3,
+					"type": "best_fields",
+					"boost": 1
+				}
+			},
+			{
+				"multi_match": {
+					"query": "{{gene}}",
+					"fields": [
+						"title^2",
+						"summary",
+						"inclusion"
+					],
+					"tie_breaker": 0.3,
+					"type": "best_fields",
+					"boost": 1
+				}
+			}
+		],
+		"should": [
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "gene genotype DNA base",
+							"fields": [
+								"title^2",
+								"summary",
+								"inclusion",
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields"
+						}
+					}
+				}
+			},
+			{
+				"bool": {
+					"should": {
+						"multi_match": {
+							"query": "surgery therapy treatment prognosis prognostic survival patient resistance recurrence targets malignancy study therapeutical outcome",
+							"fields": [
+								"title^2",
+								"summary",
+								"inclusion",
+							],
+							"tie_breaker": 0.3,
+							"type": "best_fields"
+						}
+					}
+				}
+			}
+		]
+	}
+}

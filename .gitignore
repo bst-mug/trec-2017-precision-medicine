@@ -3,6 +3,9 @@ apikey.txt
 
 *.class
 
+# Server SSH Key
+google-cloud-trec-key
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -27,3 +30,14 @@ target
 *.swp
 /.classpath
 /.project
+/.settings
+
+# MacOS stuff
+*.DS_Store
+
+# Output folders
+stats
+results
+
+# Big resource files
+src/main/resources/genes/*.gene_info*
