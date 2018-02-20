@@ -4,6 +4,7 @@ import java.io.Closeable;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Locale;
 import java.util.Set;
 
 import com.opencsv.CSVWriter;
@@ -41,7 +42,7 @@ public class TrecWriter implements Closeable {
 		for (Result result : resultList.getResults()) {
 			entries[2] = String.valueOf(result.getId());
 			entries[3] = String.valueOf(rank++);
-			entries[4] = String.format("%.6f", result.getScore());
+			entries[4] = String.format(Locale.ROOT, "%.6f", result.getScore());
 			writer.writeNext(entries);
 		}
 	}

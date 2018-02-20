@@ -1,6 +1,7 @@
 language: java
 jdk:
   - oraclejdk8
+  - oraclejdk9
 script: mvn test -Delastic.hostname=$ELASTIC_HOSTNAME -B
 after_success:
   - mvn -Delastic.hostname=$ELASTIC_HOSTNAME clean test jacoco:report coveralls:report

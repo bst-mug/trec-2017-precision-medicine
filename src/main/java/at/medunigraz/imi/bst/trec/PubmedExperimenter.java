@@ -78,7 +78,6 @@ public class PubmedExperimenter {
 		builder.newExperiment().withGoldStandard(goldStandard).withTarget(target).withTemplate(boostKeywordsTemplate)
 				.withWordRemoval().withDiseaseReplacer();
 
-		// mugpubshould
 		builder.newExperiment().withGoldStandard(goldStandard).withTarget(target).withTemplate(regexpDrugsTemplate)
 				.withWordRemoval();
 
