@@ -1,5 +1,5 @@
 #setwd("~/git/bst-mug/trec2017/paper/provisional-results")
-setwd("~/Dropbox/TREC/Poster/boxplots")
+setwd("../docs/final-results")
 
 library(dplyr)
 library(ggplot2)
@@ -13,24 +13,26 @@ tug_orange <- "#f79645"
 
 # Scientific Abstracts
 # run_ids <- c('mugpubboost', 'mugpubshould', 'mugpubbase', 'mugpubdiseas', 'mugpubgene')
-# folder <- "scientific_abstracts"
-# task_name <- folder
+# folder <- "."
+# task_name <- "scientific_abstracts"
 # metrics <- c("infNDCG", "P10", "R-prec")
-# metrics_best <- c(0.5782, 0.8552, 0.3928)
-# metrics_median <- c(0.2685, 0.3586, 0.1739)
-# metrics_worst <- c(0.0012, 0.0034, 0.0002)
-# ## best <- 0.5872 # FIXME 0.5782 ???
+# # Best, median and worst are averages over all topics
+# # TODO calculate automatically from the "_trec_trec26_tables_pm-final-abstracts" file.
+# metrics_best <- c(0.5856, 0.8600, 0.3950)
+# metrics_median <- c(0.2766, 0.3733, 0.1761)
+# metrics_worst <- c(0.0012, 0.0033, 0.0002)
+# ## best <- 0.5856
 # file_extension <- ".trec_eval"
 # tug_colors <- c(mugpubboost=tug_red, mugpubshould=tug_blue, mugpubbase=tug_green, mugpubdiseas=tug_magenta, mugpubgene=tug_orange)
 
 
 # Clinical Trials
 run_ids <- c('mugctboost', 'mugctdisease', 'mugctbase', 'mugctgene', 'mugctmust')
-folder <- "clinical_trials"
-task_name <- folder
+folder <- "."
+task_name <- "clinical_trials"
 metrics <- c("P5", "P10", "P15")
-metrics_best <- c(0.7714, 0.6750, 0.5905)
-metrics_median <- c(0.2929, 0.2536, 0.2262)
+metrics_best <- c(0.7724, 0.6759, 0.5908)
+metrics_median <- c(0.2897, 0.2517, 0.2253)
 metrics_worst <- c(0.0000, 0.0000, 0.0000)
 file_extension <- ""
 tug_colors <- c(mugctboost=tug_red, mugctdisease=tug_blue, mugctbase=tug_green, mugctgene=tug_magenta, mugctmust=tug_orange)
